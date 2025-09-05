@@ -1,0 +1,74 @@
+[
+  {
+    "category": "Technology",
+    "date": "2024-04-20",
+    "title": "The Rise of Quantum Computing",
+    "image": "https://cerberustechsolutions.com/wp-content/uploads/2024/06/quantum-computer-illustration.jpg",
+    "description": "An overview of the fascinating and complex world of quantum computers and their potential.",
+    "author": "Chen Wei"
+  },
+  {
+    "category": "Travel",
+    "date": "2024-04-01",
+    "title": "Packing Light: Essential Gear for Backpacking",
+    "image": "https://www.maloriesadventures.com/wp-content/uploads/2024/07/backpacking-101-how-to-begin-backpacking-man-packing-in-the-woods.jpeg",
+    "description": "A curated list of must-have items for minimalist travelers to reduce weight.",
+    "author": "Samira Khan"
+  },
+  {
+    "category": "Finance",
+    "date": "2024-03-15",
+    "title": "Understanding Cryptocurrency and Blockchain",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKs35m4Z76ilK3dxgcqOIuO8-zs_t2DcfIsnTxXF8AOSU43GMX7BNqoPJPh4J8CVPdc-tEMAIYsE84XmyVKZ_QXETb2f7mA1uv2iZVlrhpdoQTUc_c1XA9j9LolF02gqKcTy5FshNgoFC-1uUFpcZ65qZJ-x3BCViQf1bT-4pFQskn7JVAqkPIsu0PJx4/w640-h366-rw/t%C3%A9l%C3%A9charger%20(10).jpg",
+    "description": "A beginner's guide to the digital currency revolution and its underlying technology.",
+    "author": "Alex Johnson"
+  },
+  {
+    "category": "Lifestyle",
+    "date": "2024-03-05",
+    "title": "Morning Routines for a Productive Day",
+    "image": "https://media.licdn.com/dms/image/v2/C4D12AQG1unFqJSAlQw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1567430765748?e=2147483647&v=beta&t=IOkJNZHtaQ1nf-QagA6Pzmp118JTG-34dFBk5S4CMXE",
+    "description": "Simple habits to help you start your day with focus and positive energy.",
+    "author": "Samira Khan"
+  },
+  {
+    "category": "Food",
+    "date": "2024-02-28",
+    "title": "The Art of Sourdough Baking",
+    "image": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image_2x/public/2021-07/Rustic-Sourdough-Loaf_0049__0.jpg?itok=LYVPe6xn",
+    "description": "Master the ancient craft of making delicious, naturally leavened bread at home.",
+    "author": "Maria Garcia"
+  },
+  {
+    "category": "Technology",
+    "date": "2024-02-10",
+    "title": "Building a Scalable E-commerce Platform",
+    "image": "https://krystosoft.com/blogs/wp-content/uploads/2024/09/What-is-E-Commerce-Scalability-5.jpg",
+    "description": "Lessons learned from building and scaling a robust online store from the ground up.",
+    "author": "Chen Wei"
+  },
+  {
+    "category": "Lifestyle",
+    "date": "2024-01-15",
+    "title": "Minimalist Living for Modern Times",
+    "image": "https://www.satinandslateinteriors.com/wp-content/uploads/2023/05/Minimalist-Interior-Design.jpg",
+    "description": "A guide to decluttering your life and embracing simplicity in an increasingly complex world.",
+    "author": "Maria Garcia"
+  },
+  {
+    "category": "Travel",
+    "date": "2023-12-05",
+    "title": "Top 10 Hidden Gems in Southeast Asia",
+    "image": "https://images.travelandleisureasia.com/wp-content/uploads/sites/6/2023/01/13141634/ben-peacoc-unsplash-hero-resized.jpeg?tr=w-1366,f-jpg,pr-true",
+    "description": "Discover breathtaking landscapes and vibrant cultures on your next adventure.",
+    "author": "Alex Johnson"
+  },
+  {
+    "category": "Technology",
+    "date": "2023-11-20",
+    "title": "The Future of AI in Web Development",
+    "image": "https://assets.hyscaler.com/wp-content/uploads-webpc/uploads/2023/10/ai-in-web-development.png.webp",
+    "description": "Exploring how artificial intelligence is changing the landscape of front-end and back-end web development.",
+    "author": "Alex Johnson"
+  }
+]
