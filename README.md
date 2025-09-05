@@ -1,5 +1,5 @@
 # Blog Preview Card Extension - Blog Preview Collection
-This is an extension of the [Blog Preview Card](https://www.frontendmentor.io/solutions/blog-preview-card-pHA7bfGQ9B) challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). This project transforms the original static design into search, sort, and filter system. 
+This is a React extension of the [Blog Preview Card](https://www.frontendmentor.io/solutions/blog-preview-card-pHA7bfGQ9B) challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). This project transforms the original static design into search, sort, and filter system. 
 
 ## Features
 - **Search:** Users can search for specific articles by typing into the search bar, which filters content by the article's title.
