@@ -1,69 +1,32 @@
-# React + TypeScript + Vite
+# Blog Preview Card Extension - Blog Preview Collection
+This is an extension of the [Blog Preview Card]() challenge from [Frontend Mentor](). This project transforms the original static design into search, sort, and filter system. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- **Search:** Users can search for specific articles by typing into the search bar, which filters content by the article's title.
+- **Sort:** Articles can be sorted in ascending or descending order based on their publish date.
+- **Filtering:**
+  - **Categories:** Filter articles by a single category using a dropdown menu.
+  - **Authors:** Filter articles by one or more authors using a multi-select checkbox menu.
+- **Responsive Design:** The layout is optimized for both desktop and mobile devices.
 
-Currently, two official plugins are available:
+## Card Structure
+Each blog preview card is a self-contained component with the following elements:
+- **Image:** A preview image for the article.
+- **Category:** The article's category, displayed as a rounded tag.
+- **Publish Date:** The date the article was published.
+- **Title:** The main heading for the article.
+- **Description:** A short summary of the article's content.
+- **Author:** The name of the author who wrote the article.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Default Settings
+- **Search:** The search bar is empty, and no search filter is applied.
+- **Sorting:** The articles are sorted by "Newest" publish date, which is descending order.
+- **Categories:** The "All Categories" option is selected, showing all articles regardless of their category.
+- **Authors:** All authors are displayed, as none are selected.
 
-## Expanding the ESLint configuration
+![Screenshot of desktop version](public/screenshot.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Author
+- GitHub Profile: [PresidentTree94](https://github.com/PresidentTree94)
+- Frontend Mentor Profile: [PresidentTree94](https://www.frontendmentor.io/profile/PresidentTree94)
+- Author Website: [PresidentTree94 Portfolio](https://presidenttree94.github.io/project-portfolio/)
