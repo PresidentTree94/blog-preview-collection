@@ -34,41 +34,41 @@ function App() {
   });
 
   return (
-    <main>
-      <h1>Blog Preview Collection</h1>
-      <section className="theme">
-        <div>
+    <main className="flex flex-col m-8 mt:m-12 min-w-64 w-full max-w-304">
+      <h1 className="text-5xl font-bold text-center">Blog Preview Collection</h1>
+      <section className="card p-8 my-8 grid grid-cols-1 mt:grid-cols-2 ll:grid-cols-4">
+        <div className="line-align-2 py-2 pl-2">
           <FontAwesomeIcon icon={faMagnifyingGlass} />
-          <input type="text" placeholder="Search titles..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
+          <input type="text" className="outline-none" placeholder="Search titles..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
         </div>
-        <button onClick={() => setSortOrder(sortOrder === "oldest" ? "newest" : "oldest")}>
+        <button className="line-align-2 justify-between" onClick={() => setSortOrder(sortOrder === "oldest" ? "newest" : "oldest")}>
           Sort by {sortOrder === "oldest" ? "Oldest" : "Newest"}
           <FontAwesomeIcon icon={faArrowsRotate} />
         </button>
-        <select value={selectedCategory} onChange={(e) => setSelectedCategory(e.target.value)}>
+        <select className="appearance-none" value={selectedCategory} onChange={(e) => setSelectedCategory(e.target.value)}>
           <option value="">All Categories</option>
           {categories.map(item => (
-            <option value={item}>{item}</option>
+            <option key={item} value={item}>{item}</option>
           ))}
         </select>
-        <details>
-          <summary>
+        <details className="relative">
+          <summary className="line-align-2 justify-between list-none">
             Filter Authors
             <FontAwesomeIcon icon={faChevronDown} />
           </summary>
-          <div>
+          <div className="theme rounded-xl border shadow-lg absolute top-[calc(100%+0.5rem)] w-full flex flex-col overflow-hidden">
             {authors.map(item => (
-              <label>
-                <input type="checkbox" checked={selectedAuthors.includes(item)} onChange={() => handleAuthorChange(item)}/>
+              <label className="line-align-2 py-2 px-3">
+                <input type="checkbox" className="w-4 h-4 rounded rounded-sm" checked={selectedAuthors.includes(item)} onChange={() => handleAuthorChange(item)}/>
                 <span>{item}</span>
               </label>
             ))}
           </div>
         </details>
       </section>
-      <article>
+      <article className="grid grid-cols-[repeat(auto-fit,minmax(0,24rem))] justify-center gap-8">
         {filteredPosts.map((item) => (
-          <Preview data={item} />
+          <Preview key={item.title} data={item} />
         ))}
       </article>
     </main>
